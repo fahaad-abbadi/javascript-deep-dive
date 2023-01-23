@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    flex-direction: column;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    margin : auto;
+    max-width: 1000px;
+}
+
+img{
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+}
